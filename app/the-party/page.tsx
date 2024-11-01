@@ -15,7 +15,7 @@ export default function TheParty() {
         <div className="flex flex-col md:flex-row justify-between max-w-6xl mx-auto">
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
             <h2 className="text-3xl font-semibold text-center mb-8">
-              Groom's party
+              Groom&apos;s party
             </h2>
             <PartyMember
               name="Luke"
@@ -25,7 +25,7 @@ export default function TheParty() {
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-semibold text-center mb-8">
-              Bride's party
+              Bride&apos;s party
             </h2>
             <PartyMember
               name="Polly"

@@ -10,7 +10,7 @@ export default function TheDay() {
 
         <div className="max-w-2xl mx-auto mb-12">
           <p className="mb-4">
-            After 11 years, we're extremely excited to share our day with
+            After 11 years, we&apos;re extremely excited to share our day with
             everybody in our lives that supported us along the way.
           </p>
           <p className="mb-4">

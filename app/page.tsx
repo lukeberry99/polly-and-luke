@@ -10,7 +10,7 @@ export default function Home() {
         <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Polly &amp; Luke's Wedding
+              Polly &amp; Luke&apos;s Wedding
             </h2>
             <p className="text-lg text-gray-600">
               Gileston Manor

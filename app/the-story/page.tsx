@@ -12,18 +12,18 @@ export default function TheStory() {
         <div className="max-w-2xl mx-auto mb-12">
           <p className="mb-4">
             After being introduced online through a friend (shoutout to Sam
-            Barton!) playing League of Legends on our computers, it wasn't until
-            3 months later that we finally met up in person for a joint birthday
-            bash. We both knew we had feelings for each other and after meeting
-            up a few times over the next two months, we realized we were
-            actually just dating. After a dramatic night out in good ol'
+            Barton!) playing League of Legends on our computers, it wasn&apos;t
+            until 3 months later that we finally met up in person for a joint
+            birthday bash. We both knew we had feelings for each other and after
+            meeting up a few times over the next two months, we realized we were
+            actually just dating. After a dramatic night out in good ol&aos;
             Bridgwater, Luke ran after Polly and the rest is history.
           </p>
           <p>
             After learning how to cook risotto together, pay bills together,
             love through loss, explore cities, complete degrees, build careers
-            and raise two fluffballs together, we're ready to tie the knot and
-            continue the roller coaster life we've built together.
+            and raise two fluffballs together, we&apos;re ready to tie the knot
+            and continue the roller coaster life we&apos;ve built together.
           </p>
         </div>
 
