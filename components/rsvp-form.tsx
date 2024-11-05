@@ -40,6 +40,17 @@ export default function RSVPForm() {
       title: "RSVP Submitted",
       description: "Thank you for your response!",
     });
+
+    setFormData({
+      name: "",
+      attending: "",
+      email: "",
+      telephone: "",
+      accommodation: "",
+      dietaryRequirements: "",
+      accessibilityRequirements: "",
+      songChoice: "",
+    });
   };
 
   return (
