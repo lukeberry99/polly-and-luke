@@ -3,8 +3,8 @@ name: Build Stable Docker Image
 # Stable Docker images are built for every new tag
 on:
   push:
-    tags:
-      - 'v*.*.*'
+    branches:
+      - main
     paths-ignore:
       - README.md
 
