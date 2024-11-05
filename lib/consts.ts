@@ -71,3 +71,46 @@ export const events = [
     description: "Some description",
   },
 ];
+
+export const questions = [
+  {
+    question: "RSVP Deadline",
+    answer: "Some Answer",
+  },
+  {
+    question: "+1s",
+    answer: "Some Answer",
+  },
+  {
+    question: "Kids",
+    answer: "Some Answer",
+  },
+  {
+    question: "Weather",
+    answer: "Some Answer",
+  },
+  {
+    question: "Accessibility",
+    answer: "Some Answer",
+  },
+  {
+    question: "Indoor vs outdoor",
+    answer: "Some Answer",
+  },
+  {
+    question: "Shoes",
+    answer: "Some Answer",
+  },
+  {
+    question: "Attire",
+    answer: "Some Answer",
+  },
+  {
+    question: "Photos / phones",
+    answer: "Some Answer",
+  },
+  {
+    question: "Any other Qs",
+    answer: "Some Answer",
+  },
+];
