@@ -1,10 +1,21 @@
-export const navLinks = [
-  "Home",
-  "The Story",
-  "The Day",
-  "The Party",
-  "Q&A",
-  "RSVP",
+type NavLink = {
+  name: string;
+  bgColor: string;
+  defaultBgColor?: string;
+  textColor?: string;
+};
+export const navLinks: NavLink[] = [
+  { name: "Home", bgColor: "bg-gray-200" },
+  { name: "The Story", bgColor: "bg-blue-200" },
+  { name: "The Day", bgColor: "bg-green-200" },
+  { name: "The Party", bgColor: "bg-yellow-200" },
+  { name: "Q&A", bgColor: "bg-purple-200" },
+  {
+    name: "RSVP",
+    bgColor: "bg-red-200",
+    defaultBgColor: "bg-black",
+    textColor: "text-white",
+  },
 ];
 
 export const weddingDate = new Date("2025-08-29T12:00:00Z");

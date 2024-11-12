@@ -7,9 +7,9 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
-          <div className="w-full md:w-1/2 text-center md:text-left">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+        <div className="max-w-7xl w-full flex flex-col md:flex-row items-start justify-between space-y-8 md:space-y-0 md:space-x-8">
+          <div className="w-full md:w-1/2 text-left">
+            <h2 className="text-6xl font-semibold text-gray-900 mb-4 font-header">
               Polly &amp; Luke&apos;s Wedding
             </h2>
             <p className="text-lg text-gray-600">

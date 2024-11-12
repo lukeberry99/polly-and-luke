@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Countdown({ targetDate }: { targetDate: Date }) {
   const [days, setDays] = useState(0);
+
   useEffect(() => {
     const calculateCountdown = () => {
       const now = new Date();
@@ -18,9 +19,14 @@ export default function Countdown({ targetDate }: { targetDate: Date }) {
   }, [targetDate]);
 
   return (
-    <div className="text-center mt-4">
-      <h3 className="text-xl font-semibold text-gray-900 mb-4">Countdown</h3>
-      <p className="text-3xl font-bold text-primary">{days} days</p>
+    <div className="relative border-2 border-black p-4 mt-16 w-80 mx-auto">
+      {/* Image positioned above the border */}
+      <img
+        src="/samoyed.png"
+        alt="Dog with paws on the border"
+        className="w-24 absolute -top-12 left-0"
+      />
+      <p className="text-3xl font-bold text-primary text-left">{days} days</p>
     </div>
   );
 }
