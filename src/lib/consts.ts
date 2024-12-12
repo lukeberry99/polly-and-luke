@@ -5,7 +5,7 @@ type NavLink = {
   textColor?: string;
 };
 export const navLinks: NavLink[] = [
-  { name: "Home", bgColor: "bg-gray-200" },
+  { name: "Home Time", bgColor: "bg-gray-200" },
   { name: "The Story", bgColor: "bg-blue-200" },
   { name: "The Day", bgColor: "bg-green-200" },
   { name: "The Party", bgColor: "bg-yellow-200" },
